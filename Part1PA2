@@ -10,7 +10,7 @@
                       
  .text
             la $a0, welcome #simply prepare to send this message to screen
-            jal printstr #<- this was commented out because it does not belong
+            jal printstr 
     
             la $s0, first
             ori $s4, 0x0 
